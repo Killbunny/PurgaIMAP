@@ -241,7 +241,7 @@ namespace PurgarIMAP {
             else
             {
                 Console.Write("Conexión Fallida");
-                // connection not successful
+                
             }
             Console.WriteLine(" ");
             if (!pedirConfirmacion) { 
