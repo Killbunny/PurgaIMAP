@@ -26,7 +26,7 @@ namespace PurgarIMAP {
              " -s       Usar SSL\n" +
              " -T       Usar TLS\n" +
              " -d '' *  Días atrás a eliminar\n"+
-             " -f '' *  Carpeta donde buscar mensajes. Case sensitive.";
+             " -f '' *  Carpeta donde buscar mensajes. Case sensitive."; 
             foreach (string s in args)
                 Console.Write(s + " ");
             Console.WriteLine("");
